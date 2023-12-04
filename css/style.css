@@ -1,0 +1,55 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.sunset{
+    background: url(../assets/magical-reindeer-in-forest-1b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.universe{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.284), rgba(0, 0, 0, 0.053), rgba(0, 0, 0, 0.053), rgba(0, 0, 0, 0.053)), url(../assets/man-galaxy-universe-space-flashlight-cosmic-night-5k-cz.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mountain{
+    background: url(../assets/mountains-cliff-covered-under-fog-mist-5k-cy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.t-with{
+    background: url(../assets/subaru-wrx-sti-need-for-speed-heat-5k-c2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info{
+    position: absolute;
+    width: 25em;
+    height: 19em;
+    background: #ff7700;;
+    color: black;
+    right: 6%;
+    bottom: 2%;
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h1{
+    margin: 1.9rem 0 1rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.info p{
+    width: 90%;
+    letter-spacing: .6px;
+    line-height: 1.5rem;
+    font-size: .8rem;
+    font-weight: 30000;
+}
